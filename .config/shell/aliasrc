@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	rmd="rm -r" \
+	mkd="mkdir -pv"
+
+alias \
+	cl="clear"
+
+# Colorize commands when possible.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	ll="ls -lisa"
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi"
+
