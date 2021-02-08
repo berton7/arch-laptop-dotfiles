@@ -5,7 +5,7 @@ alias \
 	cp="cp -iv" \
 	mv="mv -iv" \
 	rm="rm -vI" \
-	rmd="rm -r" \
+	rmd="rm -rf" \
 	mkd="mkdir -pv"
 
 alias \
