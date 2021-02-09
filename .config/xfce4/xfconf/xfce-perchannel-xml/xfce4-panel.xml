@@ -84,8 +84,11 @@
     <property name="plugin-14" type="string" value="actions"/>
     <property name="clipman" type="empty">
       <property name="tweaks" type="empty">
-        <property name="max-menu-items" type="uint" value="5"/>
+        <property name="max-menu-items" type="uint" value="6"/>
         <property name="never-confirm-history-clear" type="bool" value="false"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="max-texts-in-history" type="uint" value="20"/>
       </property>
     </property>
     <property name="plugin-1" type="string" value="whiskermenu"/>
