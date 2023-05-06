@@ -19,3 +19,5 @@ alias \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi"
 
+# Faster 'yay -Sc'
+alias ysc="yes | yay -Sc"
